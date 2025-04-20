@@ -23,7 +23,6 @@ def who_won(game_board):
     else:
         return 0
 
-
 if __name__ == "__main__":
     game_board = [[1, 2, 2, 0], [2, 1, 1, 1], [0, 2, 1, 0]]
     print(who_won(game_board))
